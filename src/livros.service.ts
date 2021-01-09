@@ -5,9 +5,9 @@ import { Livro } from "./livro.model";
 export class LivrosService {
 
     produtos: Livro[] = [
-        new Livro("LIV001", "PROGRAMAÇÃO I", 29.20),
-        new Livro("LIV002", "PROGRAMAÇÃO II", 29.21),
-        new Livro("LIV003", "PROGRAMAÇÃO III", 29.23),
+        // new Livro("LIV001", "PROGRAMAÇÃO I", 29.20),
+        // new Livro("LIV002", "PROGRAMAÇÃO II", 29.21),
+        // new Livro("LIV003", "PROGRAMAÇÃO III", 29.23),
     ];
 
     obterTodos(): Livro[] {
